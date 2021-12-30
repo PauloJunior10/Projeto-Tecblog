@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #c2bebe;
+}
+
+/*-----------
+Layout
+-------------*/
+
+#cabecalho{
+    background-color: orange;
+    text-align: center;
+    padding: 15px;
+}
+
+#logo, #menu {
+    padding: 10px;
+}
+
+.branco{
+    color: white;
+}
+
+#logo{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+#area-principal{
+    width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+    border-style: solid;
+}
+
+/*formatação do menu*/
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#cabecalho a:link, #cabecalho a:visited {
+	color: #FFF;
+	padding: 15px 32px;
+}
+
+#cabecalho a:hover {
+	color: orange;
+	background: #FFF;
+	text-decoration: none;
+}
+
+
+#menu{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
